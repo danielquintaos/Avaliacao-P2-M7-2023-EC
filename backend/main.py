@@ -5,9 +5,9 @@ import uvicorn
 import psycopg2
 
 # Constantes
-DB_USER = "meuuserawsrds"
+DB_USER = "ubuntu"
 DB_PASSWORD = "postgres"
-DB_HOST = "database-postgres.c36tibwlwhak.us-east-1.rds.amazonaws.com"
+DB_HOST = "database-1.c7dgyb2anx2a.us-east-1.rds.amazonaws.com"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 
@@ -68,4 +68,4 @@ def delete_user(data: dict = Body()):
     return {"data": "Nota deletada com sucesso!"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="54.175.249.9", port=8000)

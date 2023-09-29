@@ -1,9 +1,9 @@
 import psycopg2
 
 # Constantes
-DB_USER = "meuuserawsrds"
+DB_USER = "ubuntu"
 DB_PASSWORD = "postgres"
-DB_HOST = "database-postgres.c36tibwlwhak.us-east-1.rds.amazonaws.com"
+DB_HOST = "database-1.c7dgyb2anx2a.us-east-1.rds.amazonaws.com"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 
